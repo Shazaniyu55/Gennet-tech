@@ -87,25 +87,25 @@ const Footer = () => {
                   href="/about"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  Regular Basic Cleaning
+                  Solar Installation
                 </a>
                 <a
                   href="/about"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  One-Time Basic Cleaning
+                  CCTV Installation
                 </a>
                 <a
                   href="/about"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                 Last-Minute Basic Cleaning
+                 Electrical Wiring
                 </a>
                 <a
                   href="/about"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  Deep Cleaning
+                  Street Light Installation
                 </a>
 
                
@@ -114,7 +114,7 @@ const Footer = () => {
                   href="/about"
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 >
-                  Office Cleaning
+                  Tech solution Consultation
                 </a>
 
 

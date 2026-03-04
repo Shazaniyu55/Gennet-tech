@@ -149,7 +149,7 @@ function NavBar() {
         transition={{ duration: 1, ease: "easeOut" }}
         className="text-5xl font-semibold tracking-tight text-white sm:text-7xl drop-shadow-lg"
       >
-         Gennet Technology
+         GENNET TECH SOLUTIONS LTD!
       </motion.h1>
            <motion.p
         initial={{ opacity: 0, y: 40 }}
@@ -167,7 +167,7 @@ function NavBar() {
       >
         <a
           href="/book"
-          className="rounded-md sm:w-[300px] h-[40px] bg-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-yellow-500"
+          className="rounded-md sm:w-[300px] h-[40px] bg-[#F57C00] px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-yellow-500"
         >
           Book Now
         </a>
