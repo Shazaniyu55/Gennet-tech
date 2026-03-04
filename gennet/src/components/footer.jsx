@@ -17,7 +17,7 @@ const Footer = () => {
             </p>
             <div className="flex mt-8 space-x-6 text-white">
               <a
-                href="https://www.facebook.com/share/1CEzGKZygx/"
+                href=""
                 target="_blank"
               >
                 <FaFacebook size={20} className="hover:text-yellow hover:-translate-y-1 transition-all" />
@@ -33,7 +33,7 @@ const Footer = () => {
                 <FaTwitter size={20} className="hover:text-yellow hover:-translate-y-1 transition-all" />
               </a>
               <a
-                href="https://www.instagram.com/royalecleanersuk/?igsh=MWJvdGs1N2dvdWc2cQ%3D%3D#"
+                href=""
                 target="_blank"
               >
                 <FaInstagramSquare size={20} className="hover:text-yellow hover:-translate-y-1 transition-all" />
@@ -151,7 +151,7 @@ const Footer = () => {
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 
                 >
-                <p>+44-7349-791131</p>
+                <p>+234-902-855-5593</p>
             
                 </a>
                  <a
@@ -159,7 +159,7 @@ const Footer = () => {
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 
                 >
-                <p>info@royalecleaners.co.uk</p>
+                <p>info@gennetechsolution.com</p>
             
                 </a>
 
