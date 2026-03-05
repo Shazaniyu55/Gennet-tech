@@ -1,4 +1,5 @@
 import AboutSection from './about'
+import ContactSection from './contact'
 import Footer from './footer'
 import NavBar from './navbar'
 
@@ -9,6 +10,7 @@ const Home = ()=> {
     <>
       <NavBar/>
       <AboutSection/>
+      <ContactSection/>
 
       <Footer/>
       
