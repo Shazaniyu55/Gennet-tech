@@ -20,7 +20,7 @@ const Footer = () => {
                 href=""
                 target="_blank"
               >
-                <FaFacebook size={20} className="hover:text-yellow hover:-translate-y-1 transition-all" />
+                <FaFacebook size={20} className="hover:text-[#F57C00] hover:-translate-y-1 transition-all" />
               </a>
              
               {/* <a
@@ -30,13 +30,13 @@ const Footer = () => {
                 <FaaedinIn size={20} className="hover:text-yellow hover:-translate-y-1 transition-all" />
               </a> */}
               <a href="" target="_blank">
-                <FaTwitter size={20} className="hover:text-yellow hover:-translate-y-1 transition-all" />
+                <FaTwitter size={20} className="hover:text-[#F57C00] hover:-translate-y-1 transition-all" />
               </a>
               <a
                 href=""
                 target="_blank"
               >
-                <FaInstagramSquare size={20} className="hover:text-yellow hover:-translate-y-1 transition-all" />
+                <FaInstagramSquare size={20} className="hover:text-[#F57C00] hover:-translate-y-1 transition-all" />
               </a>
             </div>
 
