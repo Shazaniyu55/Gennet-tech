@@ -11,10 +11,10 @@ const navigation = [
 ]
 
 const backgroundImages = [
-  "/assets/clean2.jpg",
-  "/assets/clean4.jpg",
-  "/assets/clean1.jpg",
-  "/assets/clean4.jpg"
+  "/assets/solar5.jpg",
+  "/assets/solar4.jpg",
+  "/assets/solar6.jpg",
+  "/assets/solar2.jpg"
 ]
 
 function NavBar() {
