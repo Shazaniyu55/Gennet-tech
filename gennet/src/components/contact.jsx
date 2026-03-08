@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Phone, Mail, MapPin } from "lucide-react";
 
 const images = [
-  "/assets/solar5.jpg",
-  "/assets/solar4.jpg",
-  "/assets/solar6.jpg",
+  "/assets/gennet1.jpeg",
+  "/assets/gennet2.jpeg",
+  "/assets/gennet3.jpeg",
 ];
 
 const ContactSection = () => {
@@ -96,7 +96,7 @@ const ContactSection = () => {
           <div className="mt-8 space-y-4 text-gray-600">
             <div className="flex items-center gap-3">
               <Phone className="text-[#1E4E79]" />
-              <span>+234 000 000 0000</span>
+              <span>+234-902-855-5593</span>
             </div>
 
             <div className="flex items-center gap-3">
@@ -106,7 +106,7 @@ const ContactSection = () => {
 
             <div className="flex items-center gap-3">
               <MapPin className="text-[#1E4E79]" />
-              <span>Lagos, Nigeria</span>
+              <span>Abuja, Nigeria</span>
             </div>
           </div>
         </div>
