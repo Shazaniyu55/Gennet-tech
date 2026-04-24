@@ -11,33 +11,9 @@ const teamMembers = [
     twitter: "#",
     facebook: "#",
   },
-  {
-    name: "Mary Okoye",
-    role: "CCTV Security Specialist",
-    bio: "Expert in installing and configuring CCTV systems for homes and businesses.",
-    image: "/assets/team2.jpg",
-    linkedin: "#",
-    twitter: "#",
-    facebook: "#",
-  },
-  {
-    name: "Tunde Alabi",
-    role: "Project Manager",
-    bio: "Oversees all installation projects ensuring timely delivery and quality assurance.",
-    image: "/assets/team3.jpg",
-    linkedin: "#",
-    twitter: "#",
-    facebook: "#",
-  },
-  {
-    name: "Grace Eze",
-    role: "Customer Support Lead",
-    bio: "Handles client inquiries, provides consultations, and ensures customer satisfaction.",
-    image: "/assets/team4.jpg",
-    linkedin: "#",
-    twitter: "#",
-    facebook: "#",
-  },
+  
+ 
+  
 ];
 
 const TeamSection = () => {
