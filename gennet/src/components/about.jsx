@@ -1,9 +1,11 @@
 import React from "react";
 import { ShieldCheck, Sun, Zap } from "lucide-react";
+import Layout from "./layout";
 
 const AboutSection = () => {
   return (
-    <section className="bg-white py-20 px-6 md:px-16">
+    <Layout showNavbar={true} showFooter={true}>
+    <section className="bg-white py-20 px-6 md:px-16 mt-20 p-10">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         
         {/* Left Content */}
@@ -76,6 +78,7 @@ const AboutSection = () => {
 
       </div>
     </section>
+    </Layout>
   );
 };
 

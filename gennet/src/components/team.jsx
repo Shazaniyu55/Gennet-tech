@@ -1,5 +1,7 @@
 import React from "react";
 import { Linkedin, Twitter, Facebook } from "lucide-react";
+import Layout from "./layout";
+
 
 const teamMembers = [
   {
@@ -11,6 +13,17 @@ const teamMembers = [
     twitter: "#",
     facebook: "#",
   },
+
+
+    {
+    name: "Shazaniyu Gbadamosi",
+    role: "Web/Graphics designer",
+    bio: "Develops website and graphics ",
+    image: "/assets/niyu.jpeg",
+    linkedin: "#",
+    twitter: "#",
+    facebook: "#",
+  },
   
  
   
@@ -18,6 +31,7 @@ const teamMembers = [
 
 const TeamSection = () => {
   return (
+    <Layout showNavbar={true} showFooter={true}>
     <section className="bg-[#F4F6F8] py-24 px-6 md:px-16">
       
       {/* SECTION TITLE */}
@@ -72,6 +86,7 @@ const TeamSection = () => {
         ))}
       </div>
     </section>
+    </Layout>
   );
 };
 
