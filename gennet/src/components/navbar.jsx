@@ -4,9 +4,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'About', href: '/about' },
-  { name: 'Team', href: '/team' },
-  { name: 'Contact', href: '/contact' },
+  { name: 'About', href: '' },
+  { name: 'Team', href: '' },
+  { name: 'Contact', href: '' },
 ];
 
 export default function NavBar() {
@@ -39,13 +39,13 @@ export default function NavBar() {
         </div>
 
         {/* Desktop menu */}
-        {/* <div className="hidden lg:flex lg:gap-x-12">
+        <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
             <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-white">
               {item.name}
             </a>
           ))}
-        </div> */}
+        </div>
 
         {/* Book Now button */}
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
