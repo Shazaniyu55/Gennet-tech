@@ -39,13 +39,13 @@ export default function NavBar() {
         </div>
 
         {/* Desktop menu */}
-        <div className="hidden lg:flex lg:gap-x-12">
+        {/* <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
             <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-white">
               {item.name}
             </a>
           ))}
-        </div>
+        </div> */}
 
         {/* Book Now button */}
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Phone, Mail, MapPin } from "lucide-react";
-import Layout from "./layout";
 
 const images = [
   "/assets/gennet1.jpeg",
@@ -20,7 +19,6 @@ const ContactSection = () => {
 
   return (
 
-        <Layout showNavbar={true} showFooter={true}>
     
     <section className="bg-[#F4F6F8] py-24 px-6 md:px-16">
 
@@ -117,7 +115,6 @@ const ContactSection = () => {
 
       </div>
     </section>
-    </Layout>
   );
 };
 
